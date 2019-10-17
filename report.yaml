@@ -1,0 +1,35 @@
+company:
+  name: Koala RE
+  logo: logo.png
+product_hmw: How might we enable real estate owners to indicate interest in selling property without actively listing their property?
+product_narrative: |
+  With the increase in competition for real estate investment and development opportunities in urban cores, real estate developers/acquirers are searching for any edge that they can find when competing for properties and development sites. 
+  By building our project, we enable the owners to indicate their interest in selling properties and facilitate the real estate development cycle for developers.
+team:
+  picture: group.jpg
+  roster:
+  - name: Yaoyang Liu
+    email: yl3423@cornell
+    picture: yl.jpg
+    program: CS
+  - name: Jeremy Morales
+    email: jmm794@cornell.edu 
+    picture: jm.png
+    program: MBA
+  - name: Xueying Sun
+    email: xs242@cornell.edu
+    picture: xs.png
+    program: ORIE
+  - name: David Kogan
+    email: dk448@cornell.edu  
+    picture: dk.png
+    program: CS
+  - name: Zhipeng Zhang
+    email: zz674@cornell.edu 
+    picture: zz.png
+    program: CM
+assets:
+- title: Sprint 1
+  url: https://tech.cornell.edu/
+- title: Sprint 2
+  url: https://tech.cornell.edu/jacobs-technion-cornell-institute/
