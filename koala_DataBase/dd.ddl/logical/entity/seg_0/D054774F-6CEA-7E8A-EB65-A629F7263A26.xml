@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D054774F-6CEA-7E8A-EB65-A629F7263A26" name="OFFER">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:08:51 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OFFER_ID" id="0B1D4B02-E1CE-8A75-E78B-D1D27C7900C0">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:31:37 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="790EF76C-CCB7-29D7-4B85-049FB1752B67">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:31:46 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_Created" id="98D89B7B-B2FB-66C8-22BA-30C10E838281">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:32:20 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Expiration_Date" id="1DE5AA8F-97E8-5D03-914A-31BB850B936F">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:32:32 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEV_ID" id="5AE6AF11-FE92-5D18-82A6-66C8AAB4677C">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:06:00 UTC</createdTime>
+<generatorID>F52A4E8E-00D4-AA96-A520-68189A260006</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<referedAttribute>3E6FF6EB-4AC7-6C46-D2EB-E7557C11E437</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOT_ID" id="0AB0B1B3-5D33-E083-AA72-BC53CDC6AA14">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:09:47 UTC</createdTime>
+<generatorID>0F89AF05-01BC-880B-B18E-97CB23BBCBE5</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<referedAttribute>0E99E2E1-3F4C-0625-A729-6705466BBFA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Accepted" id="F12308FA-A019-2D6F-F4C6-08DB1D7C5D4E">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:11:35 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE789CAC-3432-075C-D50F-6BB3D480330D" name="OFFER_PK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:35:54 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="false"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0B1D4B02-E1CE-8A75-E78B-D1D27C7900C0,F52A4E8E-00D4-AA96-A520-68189A260006,0F89AF05-01BC-880B-B18E-97CB23BBCBE5</newElementsIDs>
+<usedAttributes>
+<attributeRef>0B1D4B02-E1CE-8A75-E78B-D1D27C7900C0</attributeRef>
+<attributeRef>5AE6AF11-FE92-5D18-82A6-66C8AAB4677C</attributeRef>
+<attributeRef>0AB0B1B3-5D33-E083-AA72-BC53CDC6AA14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

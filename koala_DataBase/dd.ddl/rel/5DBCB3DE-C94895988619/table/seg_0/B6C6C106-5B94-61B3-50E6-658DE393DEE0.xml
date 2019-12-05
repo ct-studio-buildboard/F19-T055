@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6C6C106-5B94-61B3-50E6-658DE393DEE0" name="OFFER">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>D054774F-6CEA-7E8A-EB65-A629F7263A26</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFFER_ID" id="6503FAB0-4C24-E7C6-C196-83BC72B39A97">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>0B1D4B02-E1CE-8A75-E78B-D1D27C7900C0</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="041E4608-5F70-1CA2-87E6-AA38F360C213">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>790EF76C-CCB7-29D7-4B85-049FB1752B67</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_Created" id="7894AF63-0897-6114-C689-3F71A748CC40">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>98D89B7B-B2FB-66C8-22BA-30C10E838281</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Expiration_Date" id="A6C8D5D8-1787-8DD5-8B62-02197FB26D37">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>1DE5AA8F-97E8-5D03-914A-31BB850B936F</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPER_DEV_ID" id="232FC466-E429-586F-740B-A088762672A2">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>5AE6AF11-FE92-5D18-82A6-66C8AAB4677C</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CF00D8A-5E50-B08F-9EC8-85AA6BAAE27B" referredColumn="761A1A26-A322-9F52-E762-44CCF25049AB"/>
+</associations>
+</Column>
+<Column name="LOT_LOT_ID" id="B652DE7F-C67E-2515-D256-5687F4A039F3">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>0AB0B1B3-5D33-E083-AA72-BC53CDC6AA14</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A42F06F4-E281-79B3-4C48-61CA09D340DE" referredColumn="442CBA4F-2607-AE3E-BD4E-8459D9BCD4A2"/>
+</associations>
+</Column>
+<Column name="Accepted" id="883D2F18-57B3-CC90-458F-B38F1585A751">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>F12308FA-A019-2D6F-F4C6-08DB1D7C5D4E</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOT_DEVELOPER_DEV_ID" id="2EDB9B3A-26A4-A6B9-F933-C590B956AB84">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>2C662F79-9B91-6A35-69DD-686AC1632A05</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77AB945A-1E14-4B86-028B-600CAB974770" name="OFFER_PK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>EE789CAC-3432-075C-D50F-6BB3D480330D</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6503FAB0-4C24-E7C6-C196-83BC72B39A97"/>
+<colUsage columnID="232FC466-E429-586F-740B-A088762672A2"/>
+<colUsage columnID="B652DE7F-C67E-2515-D256-5687F4A039F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="604433DA-4A75-375E-4618-54CD7C9B9568" name="OFFER_DEVELOPER_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>F52A4E8E-00D4-AA96-A520-68189A260006</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="232FC466-E429-586F-740B-A088762672A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6E2C586-0208-5E99-F8A6-D60042403E56" name="OFFER_LOT_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>0F89AF05-01BC-880B-B18E-97CB23BBCBE5</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B652DE7F-C67E-2515-D256-5687F4A039F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="450ACFFA-BFC2-D1B3-CC05-6608CBF6CF71" name="OWNER">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>6662202D-1A98-B967-432C-B5183FF7C3C1</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OWNER_ID" id="8098201C-E055-DD22-4650-20B02F43731F">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>3DD305C2-13D0-52FE-345A-2171FF45077E</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="DBAF0157-BB35-AD69-4C6C-B8EA782C734B">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>18E6EB87-E189-E759-DE18-4933498E5928</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="8F6599E6-F75E-E67D-7A0A-4AD20D9C6821">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>12EFA424-DB11-43E5-4A62-76D4F967E331</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="F9451043-458E-DB90-06B0-9B42E081149C">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>2BC84B1C-0147-89B7-6C2D-51540538F3FE</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Active_Selling" id="4F24DBE6-FE5F-E575-0430-9399CB73AADD">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>B17F413C-A304-2DA8-92C1-6838D840133D</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF46457B-787D-B13C-6B7B-90D61AC96E76" name="OWNER_PK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>FE641025-02D9-77FC-E8E8-5A3E420EC91D</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8098201C-E055-DD22-4650-20B02F43731F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

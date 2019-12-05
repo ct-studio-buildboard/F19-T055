@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EB37ED3-876A-D353-DB58-663BD056C296" name="LOT">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>6074B685-49AF-F038-5C5F-4654EA2048F5</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOT_ID" id="3784E777-7E30-8A17-69DC-8097E83DE34B">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>0E99E2E1-3F4C-0625-A729-6705466BBFA1</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="21F48396-F14D-4481-AF6B-E6D23B196EA4">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>783CDCBD-00F5-944A-F23F-7256DDF4AE80</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOOR_AREA_RATIO" id="C3B0C48D-99B4-040A-6881-CA71C05C961B">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>82C8F738-B943-D61F-B619-9DC29E680AF3</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_DEV_RIGHT" id="8C534D1F-3098-3C29-D049-1158C5EE39E0">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>3647E4BF-8687-32CF-1366-165932445661</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADJACENT_AREA" id="E3D4D82A-7D87-A18E-7230-3BD82D2F8390">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>7204FEFA-DD73-939B-784A-05A4BBAAADF0</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPECTED_PRICE" id="4F49A7B4-1A90-9371-6FEA-1B48FF0C6ED3">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>2456B9CF-E69A-0070-8563-C6F3E37C2E77</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LISTING" id="E65CC3E1-7A9D-3C43-48BD-60622C9E2F3C">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>4A622AED-5C46-B873-5D1E-DB6E3A684FCA</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PICTURE" id="99074208-23EE-1E59-8177-BEC15D7A978C">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>8AD98F16-035F-7689-13C3-A0362732CA8C</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDEO" id="F738BF05-B50E-CE90-4420-68A75A27E8A5">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>F99573B6-78A4-0952-BCC5-FE03F20C1E98</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT016</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNER_NAME" id="5C4A200E-4460-C2BE-CA65-6D34926A89CF">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>3E4588B3-DD64-29AE-5764-CCFDBD77A669</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPER_DEV_ID" id="B46E696D-52ED-4BA6-F90B-3D649DBC3E40">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>12E98606-074D-8323-EB99-57F1F80FC47D</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A668FB9C-B704-AADC-9DCF-E641752FBE75" referredColumn="9428EF1E-76D6-7A27-F75B-D680444B4846"/>
+</associations>
+</Column>
+<Column name="OWNER_OWNER_ID" id="0DCE4309-C064-BE34-F9C8-F87BAF727937">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>4CDB967B-DC2D-02AD-96F9-289BF14B6D2B</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4E22CE4-82B3-DA8B-7592-D214866E8D03" referredColumn="8098201C-E055-DD22-4650-20B02F43731F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="408A7C42-A8B5-6F48-A79A-8852EAF3C529" name="LOT_PK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>88C9D761-E711-A561-F26B-1253E35ECB3B</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3784E777-7E30-8A17-69DC-8097E83DE34B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="115C7A36-56FE-C7AB-863F-E6BC5BF9686C" name="LOT_DEVELOPER_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>3B765983-4092-FE92-2260-EBB85204EC6F</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B46E696D-52ED-4BA6-F90B-3D649DBC3E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C27F58A9-07AA-F07E-5EB9-FE7E4CD3E239" name="LOT_OWNER_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>5DEF45AC-1861-3898-835E-60DC262CE76F</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DCE4309-C064-BE34-F9C8-F87BAF727937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

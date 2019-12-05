@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A9FD874-CEDC-2CE7-9E66-A8A722889568" name="NEIGHBOR">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>D75027F6-73C3-8FB2-5940-80DBFFFD2538</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NEIGHBOR_ID" id="C77ED273-E42F-8418-E731-C51021862FEA">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>F0C01C84-717E-65F4-37ED-DB575827ED88</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Lots" id="AD847119-9BBE-1960-C9BF-923D4A87D888">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>899274D8-301D-B3FE-90B5-1C77D3D06B00</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Active_Ratio" id="494F1742-12BF-66D5-EF66-CF6EC94A51BE">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>6FC1B710-D040-C36E-BF0B-FD4111A7146A</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="9B6C8FB7-7E0B-3074-BF31-02E9C426F7CA">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>328FC50C-6055-B25D-29FA-6F56764B3221</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Availability" id="1A6924E5-92F7-4CFB-2701-A2C86B4115CE">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>2746EC3E-3D99-17B1-AA60-331A9ABDD242</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Average_Price" id="49ABFF15-6B12-70B9-2538-3FAC8EF85022">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>CD8BA21E-405B-DADD-9C9A-39447172DF12</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPER_DEV_ID" id="F81B6439-FCAF-FD1F-994F-287DDAC99107">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>1DAFE9F6-229E-F2D1-A583-0BE4701FF48E</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78AEC736-81E5-A8A2-7B17-BEFAACB273DB" referredColumn="761A1A26-A322-9F52-E762-44CCF25049AB"/>
+</associations>
+</Column>
+<Column name="OFFER_OFFER_ID" id="857CCB6C-6EE4-357F-694D-328CE330B441">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>E289E402-A402-5A9C-3AD1-65EE07031520</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F38C3DD-45C0-8DA8-409A-342FA709CB40" referredColumn="6503FAB0-4C24-E7C6-C196-83BC72B39A97"/>
+</associations>
+</Column>
+<Column name="OFFER_DEVELOPER_DEV_ID" id="56C86B31-18FB-B86E-D504-A36CA6EC48A8">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>3F0614D8-0F68-181A-5CD5-D8C579991BC4</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F38C3DD-45C0-8DA8-409A-342FA709CB40" referredColumn="232FC466-E429-586F-740B-A088762672A2"/>
+</associations>
+</Column>
+<Column name="OFFER_LOT_LOT_ID" id="8575450A-01C6-F507-0DEF-62DD1A97799B">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>18D150AC-D7B0-CEB4-C141-DED62DD64FEA</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F38C3DD-45C0-8DA8-409A-342FA709CB40" referredColumn="B652DE7F-C67E-2515-D256-5687F4A039F3"/>
+</associations>
+</Column>
+<Column name="OFFER_LOT_DEVELOPER_DEV_ID" id="F4C56DBD-3838-527F-790E-437EA6064321">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>80865A61-1AD0-5470-E59D-4B9FF0C29788</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F38C3DD-45C0-8DA8-409A-342FA709CB40" referredColumn="2EDB9B3A-26A4-A6B9-F933-C590B956AB84"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABF63332-C893-A486-D189-7F557F7D928D" name="NEIGHBOR_PK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>EA76DA3C-A2AD-2AEA-ABCC-5DB32B0BBBB1</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F81B6439-FCAF-FD1F-994F-287DDAC99107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D734925-29EB-DE88-2E03-8EDBC8B8A7CC" name="NEIGHBOR__IDX">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D1A4D4A8-DE49-CC17-49AF-8E2B8779D90B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="857CCB6C-6EE4-357F-694D-328CE330B441"/>
+<colUsage columnID="56C86B31-18FB-B86E-D504-A36CA6EC48A8"/>
+<colUsage columnID="8575450A-01C6-F507-0DEF-62DD1A97799B"/>
+<colUsage columnID="F4C56DBD-3838-527F-790E-437EA6064321"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1B5D241-1144-3394-B5B6-0C96DC7F7125" name="NEIGHBOR_DEVELOPER_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>72F7D5EA-997D-B66A-EC39-EEF353FF2988</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F81B6439-FCAF-FD1F-994F-287DDAC99107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E428A51-DFE2-80B9-B172-7A1D19DC77DA" name="NEIGHBOR_OFFER_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>D1A4D4A8-DE49-CC17-49AF-8E2B8779D90B</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="857CCB6C-6EE4-357F-694D-328CE330B441"/>
+<colUsage columnID="56C86B31-18FB-B86E-D504-A36CA6EC48A8"/>
+<colUsage columnID="8575450A-01C6-F507-0DEF-62DD1A97799B"/>
+<colUsage columnID="F4C56DBD-3838-527F-790E-437EA6064321"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

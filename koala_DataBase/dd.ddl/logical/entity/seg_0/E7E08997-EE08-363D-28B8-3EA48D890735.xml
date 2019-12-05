@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7E08997-EE08-363D-28B8-3EA48D890735" name="DEVELOPER">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:08:40 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DEV_ID" id="3E6FF6EB-4AC7-6C46-D2EB-E7557C11E437">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:22:48 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AGENT_NAME" id="A83687C3-D3DF-3563-D8B8-9C794F9639BE">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:23:05 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="33CDAAF4-544A-2ACF-5693-717746938F07">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:24:09 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="8D41CECE-F143-4AA8-A5F2-6A50D1EE3567">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:28:25 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEC4BFB4-4E3F-ECD1-8F9D-48380DEC43C3" name="Developer_PK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 05:34:48 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="false"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3E6FF6EB-4AC7-6C46-D2EB-E7557C11E437</newElementsIDs>
+<usedAttributes>
+<attributeRef>3E6FF6EB-4AC7-6C46-D2EB-E7557C11E437</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

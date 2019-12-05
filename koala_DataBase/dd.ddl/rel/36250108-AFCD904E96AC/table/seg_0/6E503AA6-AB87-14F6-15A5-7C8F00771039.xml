@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E503AA6-AB87-14F6-15A5-7C8F00771039" name="OFFER">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>D054774F-6CEA-7E8A-EB65-A629F7263A26</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFFER_ID" id="BC00119B-A279-825D-3342-F343B60AC900">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>0B1D4B02-E1CE-8A75-E78B-D1D27C7900C0</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="0F323E2D-3E43-E155-41B7-E7FFEB6E78DA">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>790EF76C-CCB7-29D7-4B85-049FB1752B67</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_Created" id="AC592F4F-A234-15BB-9BA7-A3E8AF4A107C">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>98D89B7B-B2FB-66C8-22BA-30C10E838281</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Expiration_Date" id="F2D2E4A0-B2E9-D9D4-EBEE-1C5E6A2B329F">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>1DE5AA8F-97E8-5D03-914A-31BB850B936F</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVELOPER_DEV_ID" id="98A42029-AA3B-D1E9-A734-BEDF6EF8BADA">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>5AE6AF11-FE92-5D18-82A6-66C8AAB4677C</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FDA195A-D946-F842-7F41-DCC20CE4F6E4" referredColumn="9428EF1E-76D6-7A27-F75B-D680444B4846"/>
+</associations>
+</Column>
+<Column name="LOT_LOT_ID" id="F5ACCF6C-4922-771F-79FB-B34EDFC4F658">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>0AB0B1B3-5D33-E083-AA72-BC53CDC6AA14</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EF6715F-1052-98DA-E444-C337989A2B20" referredColumn="3784E777-7E30-8A17-69DC-8097E83DE34B"/>
+</associations>
+</Column>
+<Column name="Accepted" id="AE98F171-5D53-1498-204F-3ACE10FF9A87">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>F12308FA-A019-2D6F-F4C6-08DB1D7C5D4E</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A6CF505-B38E-C95F-71AE-3D1FE58162ED" name="OFFER_PK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>EE789CAC-3432-075C-D50F-6BB3D480330D</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC00119B-A279-825D-3342-F343B60AC900"/>
+<colUsage columnID="98A42029-AA3B-D1E9-A734-BEDF6EF8BADA"/>
+<colUsage columnID="F5ACCF6C-4922-771F-79FB-B34EDFC4F658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A22BE0CC-26BA-5FD0-93AC-F99B3243709E" name="OFFER_DEVELOPER_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>F52A4E8E-00D4-AA96-A520-68189A260006</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98A42029-AA3B-D1E9-A734-BEDF6EF8BADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D25EFA02-7C70-775B-D68C-1FE644BB7C7E" name="OFFER_LOT_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 17:47:19 UTC</createdTime>
+<generatorID>0F89AF05-01BC-880B-B18E-97CB23BBCBE5</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5ACCF6C-4922-771F-79FB-B34EDFC4F658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

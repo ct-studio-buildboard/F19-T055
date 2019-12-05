@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A42F06F4-E281-79B3-4C48-61CA09D340DE" containerWithKeyObject="B6C6C106-5B94-61B3-50E6-658DE393DEE0" localFKIndex="A6E2C586-0208-5E99-F8A6-D60042403E56" name="OFFER_LOT_FK">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:38:00 UTC</createdTime>
+<generatorID>0F89AF05-01BC-880B-B18E-97CB23BBCBE5</generatorID>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<referredTableLongName>LOT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D081C24-4DAF-B16C-6644-768B3D42C4C4</referredTableID>
+<keyObject>ABEE491C-01DF-D468-F19B-3457D78C710C</keyObject>
+<referredKeyID>ABEE491C-01DF-D468-F19B-3457D78C710C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

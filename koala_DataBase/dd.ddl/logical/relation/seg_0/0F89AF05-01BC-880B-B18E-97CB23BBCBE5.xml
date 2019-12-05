@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lot_Offer_FK" directorySegmentName="seg_0" id="0F89AF05-01BC-880B-B18E-97CB23BBCBE5">
+<createdBy>xiaoqiang</createdBy>
+<createdTime>2019-11-22 06:09:47 UTC</createdTime>
+<ownerDesignName>dd.ddl</ownerDesignName>
+<engineerTo>
+<item key="5DBCB3DE-9163-814B-6166-C94895988619" value="true"/>
+<item key="36250108-A78A-3AFB-08F0-AFCD904E96AC" value="true"/>
+</engineerTo>
+<sourcePk>88C9D761-E711-A561-F26B-1253E35ECB3B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6074B685-49AF-F038-5C5F-4654EA2048F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D054774F-6CEA-7E8A-EB65-A629F7263A26</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
